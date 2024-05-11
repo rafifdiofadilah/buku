@@ -1,0 +1,91 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.logo {
+  font-family: "Anton", sans-serif;
+}
+
+.judul {
+  text-align: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.intro {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Caveat", cursive;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Caveat", cursive;
+}
+
+.content {
+  margin-top: 40px;
+  justify-content: center;
+  display: flex;
+}
+
+.content-img {
+  width: 60%;
+  height: 60%;
+  justify-content: center;
+}
+
+.btn-a {
+  text-align: center;
+  margin-top: 55px;
+}
+
+button {
+  padding: 8px 19px;
+  border: none;
+  background-color: rgb(212, 207, 215);
+}
+
+button:hover {
+  transform: rotate(6deg);
+  background-color: yellow;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info {
+  margin-top: 45px;
+  text-align: center;
+  font-size: 19px;
+}
+
+.footer {
+  margin-bottom: 20px;
+}
+
+.icon {
+  gap: 15px;
+}
+
+i {
+  margin: 5px;
+}
